@@ -28,7 +28,7 @@
          <dependency>
              <groupId>com.github.spotbugs</groupId>
              <artifactId>spotbugs-maven-plugin</artifactId>
-             <version>4.4.2</version>
+             <version>4.5.2.0</version>
          </dependency>
     </dependencies>
 
@@ -93,7 +93,7 @@
             <plugin>
                 <groupId>com.github.spotbugs</groupId>
                 <artifactId>spotbugs-maven-plugin</artifactId>
-                <version>4.4.2</version>
+                <version>4.5.2.0</version>
                 <configuration>
                     <includeFilterFile>spotbugs-security-include.xml</includeFilterFile>
                     <excludeFilterFile>spotbugs-security-exclude.xml</excludeFilterFile>
